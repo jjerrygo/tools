@@ -5,27 +5,27 @@ CuteR is a QR code head potrait generator, it combines your image with QC code w
 
 You can find the original version here: https://github.com/chinuno-usami/CuteR
 
-As a fresh hand of Python, I try to figure out how to use it as my practice of learing.
+As a fresh hand of Python, I try to figure out how to use it as my practice of learning.
 
 ### 1.0 Preparation
 There are 2 ways to use it, first is command line with option, second is to run python module.
 
-#### Setup
+#### 1) Setup
 Install Pillow/CuteR
 ```shell
 pip install CuteR
 ```
 Pillow is a powerful branch of PIL(Python Imaging Library), since PIL no longer supports after Python 2.7, we should use Pillow.
 
-#### Input
+#### 2) Input
 * Link the of QR code(text)
 * An image you want to use as background(image)
-Please not the image should better be square to be consitent with output, if not, will automatically use the top left square area of your image as the input.
+Please note the image should better be square to be consitent with output, if not, will automatically use the top left square area of your image as the input.
 
-#### Output
+#### 3) Output
 * A QR code image with background
 
-### 1.1 As Python module
+### 1.1 Run as Python script
 
 #### Example
 ```python
@@ -35,20 +35,26 @@ Please not the image should better be square to be consitent with output, if not
 import CuteR.CuteR as cr
 cr.produce("http://www.operasolutions.com","sample_input.png").save("sample_output.png")
 ```
+Then output image would be in the same location as the input.
 
 #### Attention
-Do **NOT** name the script as CuteR.py in case of duplication with module
+Do **NOT** name the script as CuteR.py in case of duplication with module.
 
-### 1.2 As command line tool
+### 1.2 Run as command
 
-#### Example
+#### Example(shell)
 ```shell
-python CuteR.py -C -c 10 -e H -o sample_output.png -v 10 sample_input.png http://www.operasolutions.com
+CuteR -C -c 10 -o sample_output.png -v 10 sample_input.png http://www.operasolutions.com
+```
+```
+-C    [] colorful mode
+-v    [num] QR version, from 1 to 40, the larger number, the higher resolution
+-c    [num] contrast enhance
 ```
 
 #### Usage
 ```shell
-python CuteR.py [-h] [-o OUTPUT] [-v VERSION] [-e {Q,H,M,L}] [-b BRIGHTNESS]
+CuteR [-h] [-o OUTPUT] [-v VERSION] [-e {Q,H,M,L}] [-b BRIGHTNESS]
                 [-c CONTRAST] [-C] [-r R G B]
                 image
                 text
