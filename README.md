@@ -1,11 +1,11 @@
 # tools
 
 ## 1.CuteR
-CuteR is a QR code head potrait generator, it combines your image with QC code which generates QC code with your image as the background.
+CuteR is a QR code generator, it combines your image with QR code which puts link into your image.
 
-You can find the original version here: https://github.com/chinuno-usami/CuteR
+As a fresh hand of Python, I try to summarize how to use it as my practice of learning.
 
-As a fresh hand of Python, I try to figure out how to use it as my practice of learning.
+You can find the original project here: https://github.com/chinuno-usami/CuteR
 
 ### 1.0 Preparation
 There are 2 ways to use it, first is command line with option, second is to run python module.
@@ -21,6 +21,7 @@ Pillow is a powerful branch of PIL(Python Imaging Library), since PIL no longer 
 #### 2) Input
 * Link the of QR code(text)
 * An image you want to use as background(image)
+
 Please note the image should better be square to be consitent with output, if not, will automatically use the top left square area of your image as the input.
 
 #### 3) Output
