@@ -10,19 +10,19 @@ As a fresh hand of Python, I try to figure out how to use it as my practice of l
 ### 1.0 Preparation
 There are 2 ways to use it, first is command line with option, second is to run python module.
 
-### Setup
+#### Setup
 Install Pillow/CuteR
 ```shell
 pip install CuteR
 ```
 Pillow is a powerful branch of PIL(Python Imaging Library), since PIL no longer supports after Python 2.7, we should use Pillow.
 
-### Input
+#### Input
 * Link the of QR code(text)
 * An image you want to use as background(image)
 Please not the image should better be square to be consitent with output, if not, will automatically use the top left square area of your image as the input.
 
-### Output
+#### Output
 * A QR code image with background
 
 ### 1.1 As Python module
