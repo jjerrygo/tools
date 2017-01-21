@@ -13,6 +13,7 @@ There are 2 ways to use it, first is command line with option, second is to run 
 #### 1) Setup
 Install Pillow/CuteR
 ```shell
+pip install Pillow
 pip install CuteR
 ```
 Pillow is a powerful branch of PIL(Python Imaging Library), since PIL no longer supports after Python 2.7, we should use Pillow.
