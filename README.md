@@ -9,16 +9,16 @@ You can find the original project here: https://github.com/chinuno-usami/CuteR
 
 Here is a quick demo to showcase:
 
-1. Before
+#### 1) Before
 
 ![CuteR_head](https://github.com/jjerrygo/tools/blob/master/CuteR_head.jpg)
 
-2. Run Command
+#### 2) Run Command
 ```
 CuteR -C -v 6 -r 0 0 0 -o head_color.jpg head.jpg http://www.operasolutions.com
 ```
 
-3. After
+#### 3) After
 
 ![CuteR_head_out](https://github.com/jjerrygo/tools/blob/master/CuteR_head_out.jpg)
 
