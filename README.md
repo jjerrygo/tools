@@ -7,6 +7,10 @@ As a fresh hand of Python, I try to summarize how to use it as my practice of le
 
 You can find the original project here: https://github.com/chinuno-usami/CuteR
 
+Here is a quick example to showcase:
+1. Before
+
+
 ### 1.0 Preparation
 There are 2 ways to use it, first is command line with option, second is to run python module.
 
