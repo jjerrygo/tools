@@ -1,4 +1,4 @@
-# tools
+# Tools
 
 ## 1.CuteR
 CuteR is a QR code generator, it combines your image with QR code which puts link into your image.
