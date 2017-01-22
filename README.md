@@ -7,9 +7,15 @@ As a fresh hand of Python, I try to summarize how to use it as my practice of le
 
 You can find the original project here: https://github.com/chinuno-usami/CuteR
 
-Here is a quick example to showcase:
+Here is a quick demo to showcase:
 1. Before
-
+![CuteR_head](https://github.com/jjerrygo/tools/blob/master/CuteR_head.jpg)
+2. Run Command
+```
+CuteR -C -v 6 -r 0 0 0 -o head_color.jpg head.jpg http://www.operasolutions.com
+```
+3. After
+![CuteR_head](https://github.com/jjerrygo/tools/blob/master/CuteR_head_out.jpg)
 
 ### 1.0 Preparation
 There are 2 ways to use it, first is command line with option, second is to run python module.
